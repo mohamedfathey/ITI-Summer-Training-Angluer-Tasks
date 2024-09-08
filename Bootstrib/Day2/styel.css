@@ -1,0 +1,102 @@
+a {
+    color: #fff;
+}
+.p1{    
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+main {
+    background: linear-gradient(to right, blue, red);
+    height: 1900px;
+}
+.btn-pink {
+    background-color: #d84780;
+    height: 70px;
+    width: 170px;
+}
+.btn-pink:hover {
+    background-color: pink;
+}
+
+
+.card-text {
+    font-size: 1.1rem; 
+    color: #555;
+    /* text-align: center; */
+}
+.card-title {
+    text-align: center;
+}
+.btn-custom {
+    height: 50px;
+    width: 170px;
+    background-color: #d84780;
+    color: white;
+}
+
+.art {
+    height: 200px;
+    width: 45%;
+    /* max-width: 500px; */
+    /* background-color: #343a40; */
+    padding: 15px;
+    margin: 10px auto;
+    color: aliceblue;
+}
+hr {
+    border-top: 1px solid antiquewhite;
+    margin-top: 10px;
+}
+
+.formbody{
+    background-color: #d84780;
+    height: 800px;
+}
+.formbody h1{
+    text-align: center;
+    color: #fff;
+}
+.formbody p{
+    text-align: center;
+    color: #fff;
+}
+.form{
+    width: 80%;
+    margin-left: 10%;
+}
+.btn-pinc {
+    background-color:#d84780;
+    color: #fff;
+    height: 70px;
+    width: 170px;
+    margin-left: 43%;
+    border: 1px solid white;
+}
+.btn-pinc:hover {
+    background-color:  pink;
+}
+
+.footbody{
+    background-color: black;
+}
+.f{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+    color: #ccc;
+}
+.icon{
+    margin-left: 45%;
+}
+.footbody p{
+    color: #ccc;
+    text-align: center;
+}
+.footbody span{
+    color: #6d6868;
+}
