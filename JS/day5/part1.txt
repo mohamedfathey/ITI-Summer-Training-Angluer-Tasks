@@ -1,0 +1,3 @@
+-- Get All {..} using Ajax request --> show data in Table
+
+-- Get by name

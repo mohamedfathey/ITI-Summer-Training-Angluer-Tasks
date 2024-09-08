@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Win</title>
+</head>
+<body>
+    <h2 id="hed"></h2>
+        <script>
+            var i=0;
+            var text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, fugit unde impedit illo est similique eum vero quo consequatur dolore accusantium error soluta earum minus id recusandae fuga distinctio.";
+            var hed=document.getElementById("hed");
+            onload=function(){
+                var set=setInterval(function(){
+                    hed.textContent+=text[i];
+                    i++;
+                    if(i>text.length-1)
+                        clearInterval(set);
+                },200)
+            }
+        </script>
+</body>
+</html>

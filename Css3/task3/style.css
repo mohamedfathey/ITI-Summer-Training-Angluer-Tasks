@@ -1,0 +1,13 @@
+
+img:hover {
+    animation: hov 2s forwards;
+}
+
+@keyframes hov {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
